@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather website</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+   <div class="container">
+    <div class="box">
+        <div class="searchbox">
+            <input type="text" placeholder="Enter your Location" class="input-box">
+            <button id="searchBtn">Search</button>
+        </div>
+    </div>
+
+    <div class="location-notfound">
+        <h1> Sorry,Location not found!!</h1>
+        <img src="/image/error.avif" alt="">
+    </div>
+    <div class="weather-condition">
+       
+        <div class="weather-detail">
+            <p class="temp">0 <sup>°C. </sup></p>
+            <p class="description">Clean Weather</p>
+        </div>
+        <div class="weather-box">
+            <div class="humidity">
+                <img src="/image/humidity.png" alt="">
+                <div class="text">
+                    <span id="humidity">30%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="windspeed">
+                <img src="/image/windspee.jfif" alt="">
+                <div class="wind">
+                    <span id="windspeed">30km/h</span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>

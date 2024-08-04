@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background: url(/image/back.jpg);
+   background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+   height: min-content;
+   width: 400px;
+   border: 2px solid white;
+   padding: 28px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 10px;
+
+  
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchbox input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+}
+.searchbox input::placeholder{
+    color: black;
+} 
+.searchbox button{
+    background-color: rgb(121, 121, 192);
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
+    color: white;
+}
+.searchbox button:hover{
+    background-color: rgb(216, 135, 135);
+    color: black;
+    cursor: pointer;
+}
+
+.weather-condition{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+}
+.weather-detail{
+    text-align: center;
+    margin-block: 20px;
+}
+.weather-detail .temp{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+}
+.weather-detail .temp sup{
+    font-size: 20px;
+    position: absolute;
+}
+.weather-detail .description{
+    font-size: 30px;
+}
+.weather-box{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.humidity ,.windspeed{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.humidity img{
+    width: 40px;
+    
+}
+.text{
+    text-align: center;
+}
+.windspeed img{
+    width: 40px;
+
+}
+.location-notfound{
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.location-notfound img{
+    width: 40%;
+
+}
+.location-notfound h1{
+    font-size: 25px;
+    color: rgb(49, 49, 49);
+}
