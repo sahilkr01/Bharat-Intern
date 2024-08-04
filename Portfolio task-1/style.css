@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    position: fixed;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    z-index: 1;
+}
+.nav-logo{
+    width: 40%;
+    object-fit: cover;
+}
+.nav-logo img{
+    height: 45px;
+    width: 20%;
+}
+.nav-menu{
+    
+   
+}
+.nav-menu a{
+    text-decoration: none;
+    color:  rgb(172, 152, 152);
+    margin-right: 40px;
+    font-weight: 700;
+  
+}
+.nav-menu a:hover{
+  
+    color: aqua;
+   transition:  .5s ease-in-out ;
+}
+.mid-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    background-color: black;
+    border-bottom: 2px solid orange;
+    
+    
+}
+.about h2,h3{
+color:  rgb(156, 139, 139);
+font-size: 30px;
+}
+.about h1{
+    color: orange;
+    font-size: 45px;
+}
+.profileimg img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.project h1{
+    text-align: center;
+    color: rgb(122, 116, 116);
+    background-color: black;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    height: 400px;
+    border-bottom: 2px solid orange;
+}
+.project-container h2{
+    color:rgb(122, 116, 116) ;
+}
+.project-container img {
+   
+    margin-top: 10px;
+    height: 100px;
+    width: 200px;
+    z-index: -1;
+}
+.project-container img:hover{
+    transform: scale(1.1);
+    transition: .1s ease-in-out
+
+}
+.project-container{
+    text-align: center;
+    width: 22%;
+    border: 2px solid rgb(65, 55, 55);
+    height:320px ;
+    border-radius: 8px;
+}
+.project-container h2, p ,button{
+    margin-top: 20px;
+}
+.project-container button{
+    border:  1px solid white;
+    background-color: transparent;
+    color: aqua;
+    width: 80px;
+    border-radius: 5px;
+}
+.project-container button:hover{
+    background-color: aquamarine;
+    color: black;
+    transition-duration: .3s;
+}
+.skill-tittle {
+    background-color: black;
+    color:  rgb(122, 116, 116);
+    text-align: center;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+
+}
+.skill-container{
+    width: 22%;
+    text-align: center;
+    border-bottom: 2px solid orange;
+    
+}
+.skill-container img{
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    
+}
+.skill-container img:hover{
+    transform: scale(1.1);
+    transition: .1s ease-in-out
+}
+.contacts{
+    text-align: center;
+    background-color: black;
+    color: rgb(122, 116, 116);
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.socialmedia{
+    width: 45%;
+    color: white;
+}
+.social-icon img{
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+    height: 60px;
+    width: 60px;
+    border-radius: 65%;
+    object-fit: contain;
+}
+.social-icon{
+    display: flex;
+}
+.contactme{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    width: 30%;
+}
+.contactme input{
+    display: block;
+    margin-bottom: 20px;
+}
+.backtop{
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+}
+.backtop a{
+    text-decoration: none;
+    color: white;
+}
+.contactme button{
+    background-color:orange;
+    color:black;
+    height: 30px;
+    width: 60px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.ques{
+    height: 50px;
+    width: 170px;
+}
+.social-icon img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
